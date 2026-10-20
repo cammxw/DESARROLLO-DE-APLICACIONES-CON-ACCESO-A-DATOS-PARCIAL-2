@@ -10,7 +10,7 @@ Parcial practico de Acceso a Datos. Aplicacion de consola en Python con SQLite p
 ## Como ejecutar
 
 ```bash
-git clone <urlDelRepositorio>
+git clone <[urlDelRepositorio](https://github.com/cammxw/DESARROLLO-DE-APLICACIONES-CON-ACCESO-A-DATOS-PARCIAL-2.git)>
 cd tiendaInventario
 python main.py
 ```
