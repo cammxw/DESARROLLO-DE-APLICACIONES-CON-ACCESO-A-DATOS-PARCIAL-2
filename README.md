@@ -180,33 +180,3 @@ Resultado: datos intactos
 ```
 
 Tambien hay una prueba automatica (`testRollbackKeepsDataIntact`) que verifica este comportamiento y que la conexion no queda con una transaccion abierta.
-
-## Evidencias de ejecucion
-
-**Registro y consulta de productos**
-
-![Registro y consulta](docs/evidencias/01RegistroYConsulta.png)
-
-**Venta exitosa e historial con JOIN**
-
-![Venta exitosa](docs/evidencias/02VentaExitosa.png)
-
-**Validaciones: producto inexistente, stock insuficiente y cantidad invalida**
-
-![Validaciones](docs/evidencias/03Validaciones.png)
-
-**Rollback con error controlado desde el menu**
-
-![Rollback controlado](docs/evidencias/04RollbackControlado.png)
-
-**Eliminacion de productos respetando las relaciones**
-
-![Eliminar productos](docs/evidencias/05EliminarProductos.png)
-
-**Pruebas automaticas**
-
-![Pruebas automaticas](docs/evidencias/06PruebasAutomaticas.png)
-
-**Demostracion del rollback como script**
-
-![Demo rollback](docs/evidencias/07DemoRollbackScript.png)
